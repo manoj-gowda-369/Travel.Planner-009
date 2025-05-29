@@ -203,7 +203,7 @@ runTest("Valid user passes validation", () => {
 
 runTest("Invalid email fails validation", () => {
     const user = {
-        email: "invalid-email",
+        email: "email not valid",
         password: "password123",
         name: "Test User"
     };
