@@ -214,7 +214,7 @@ runTest("Invalid email fails validation", () => {
 runTest("Short password fails validation", () => {
     const user = {
         email: "test@example.com",
-        password: "123",
+        password: "1234",
         name: "Test User"
     };
     const errors = validateUser(user);
