@@ -1,0 +1,112 @@
+TRAVEL PLANNER MANUAL TESTING CHECKLIST
+=======================================
+
+## FRONTEND TESTING
+
+### 1. Homepage Testing
+□ Page loads without errors
+□ All images show up correctly
+□ Navigation menu works
+□ Search box accepts text input
+□ Search button responds to clicks
+□ Page looks good on big screens
+□ Page looks good on phone screens
+□ All links work and go to right pages
+
+### 2. Search Page Testing
+□ Can type in search box
+□ Search button works when clicked
+□ Search results show up
+□ Results show correct information
+□ Can click on results to see details
+□ "No results" message shows when nothing found
+□ Can search again with different words
+
+### 3. Destination Details Page
+□ Shows correct destination information
+□ Images load properly
+□ Description text is readable
+□ Price range is displayed
+□ Activities list shows correctly
+□ Rating stars appear
+□ "Add to Favorites" button works
+□ "Plan Trip" button works
+
+### 4. User Account Pages
+□ Registration form accepts input
+□ Login form works
+□ Error messages show for wrong passwords
+□ User can logout successfully
+□ Profile page shows user information
+□ Can edit profile information
+
+## BACKEND TESTING
+
+### 1. Server Testing
+□ Server starts without errors
+□ Server responds to requests
+□ API endpoints return data
+□ JSON data is formatted correctly
+□ Server handles multiple requests
+□ Error messages are helpful
+
+### 2. Data Testing
+□ Can get list of destinations
+□ Can search for destinations
+□ Can get single destination details
+□ User registration works
+□ User login works
+□ Can save favorite destinations
+□ Can create new trips
+
+## DATABASE TESTING
+
+### 1. Data Storage Testing
+□ Data saves correctly
+□ Data can be retrieved
+□ Search function works
+□ Data doesn't get corrupted
+□ Backup files are created
+□ Restore function works
+
+### 2. Data Integrity Testing
+□ No duplicate users with same email
+□ Trip dates make sense (start before end)
+□ Ratings are between 0 and 5
+□ Required fields are not empty
+□ Foreign keys link correctly
+
+## INTEGRATION TESTING
+
+### 1. Frontend + Backend
+□ Search from frontend gets backend results
+□ User login connects frontend to backend
+□ Favorite buttons save to backend
+□ Trip planning saves data
+
+### 2. Backend + Database
+□ API calls retrieve correct data
+□ New data gets saved properly
+□ Updates change the right records
+□ Deletes remove correct items
+
+## BROWSER TESTING
+□ Works in Chrome
+□ Works in Firefox  
+□ Works in Safari
+□ Works on Android phone
+□ Works on iPhone
+□ Works on tablet
+
+## PERFORMANCE TESTING
+□ Pages load in under 3 seconds
+□ Search results appear quickly
+□ Images don't take too long to load
+□ Site works with slow internet
+
+## SECURITY TESTING (Basic)
+□ Can't access other users' data
+□ Login is required for personal features
+□ SQL injection doesn't work
+□ Password is not visible in browser
+
